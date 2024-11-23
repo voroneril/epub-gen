@@ -1,5 +1,5 @@
+/.project
 .idea/
 tempDir
 node_modules/
 *.map
-/.project
