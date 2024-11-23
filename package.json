@@ -1,13 +1,9 @@
 {
-	"name": "@lesjoursfr/html-to-epub",
+	"name": "@voroneril/epub-gen",
 	"version": "4.4.0",
 	"description": "A library to generate EPUB from HTML. Inspired by epub-gen.",
 	"license": "MIT",
-	"repository": "lesjoursfr/html-to-epub",
-	"homepage": "https://github.com/lesjoursfr/html-to-epub#readme",
-	"bugs": {
-		"url": "https://github.com/lesjoursfr/html-to-epub/issues"
-	},
+	"repository": "voroneril/epub-gen#4.4.0",
 	"publishConfig": {
 		"access": "public"
 	},
