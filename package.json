@@ -20,6 +20,7 @@
   "homepage": "https://github.com/voroneril/epub-gen",
   "dependencies": {
     "archiver": "^3.0.0",
+    "axios": "^1.7.4",
     "cheerio": "^0.22.0",
     "diacritics": "^1.3.0",
     "ejs": "^2.6.1",
