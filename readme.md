@@ -1,10 +1,11 @@
 [![npm version](https://badge.fury.io/js/@lesjoursfr%2Fhtml-to-epub.svg)](https://badge.fury.io/js/@lesjoursfr%2Fhtml-to-epub)
 [![QC Checks](https://github.com/lesjoursfr/html-to-epub/actions/workflows/quality-control.yml/badge.svg)](https://github.com/lesjoursfr/html-to-epub/actions/workflows/quality-control.yml)
 
-# @lesjoursfr/html-to-epub
+# @voroneril/html-to-epub
 
 Generate EPUB books from HTML with simple API in Node.js.
 Inspired by [cyrilis/epub-gen](https://github.com/cyrilis/epub-gen/)
+Forked from [cyrilis/epub-gen](https://github.com/lesjoursfr/html-to-epub)
 
 # What is this library?
 
@@ -21,16 +22,16 @@ Install the lib and add it as a dependency :
 Then put this in your code:
 
 ```javascript
-const { EPub } = require("@voroneril/epub-gen");
+	import { EPub } from "@voroneril/epub-gen";
 
-const epub = new EPub(option, output);
-epub.render()
-	.then(() => {
-		console.log("Ebook Generated Successfully!");
-	})
-	.catch((err) => {
-		console.error("Failed to generate Ebook because of ", err);
-	});
+	const epub = new EPub(option, output);
+	epub.render()
+		.then(() => {
+			console.log("Ebook Generated Successfully!");
+		})
+		.catch((err) => {
+			console.error("Failed to generate Ebook because of ", err);
+		});
 ```
 
 #### Options
